@@ -1,0 +1,20 @@
+    footer {
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+
+    .links {
+        align-self: center;
+        a {
+            padding-left: 25px;
+            
+        }
+    }
+
+    .quote {
+        text-decoration: italic;
+        color: grey;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,28 @@
+.about {
+    .bg {
+        width: 60%;
+        height: 300px;
+        margin: 0 auto;
+        background: url(../img/marco-marino.jpg) center/cover;
+    }
+
+    .about_txt {
+        width: 60%;
+        margin: 50px auto 80px;
+        display: flex;
+        gap: 50px;
+        justify-content: space-between;
+        text-align: left;
+
+        li {
+            list-style-type: none;
+            text-align: left;
+            line-height: 30px;
+        }
+        div:nth-of-type(2){
+            
+            text-align: justify;
+            line-height: 25px;
+        }
+    }
+}
