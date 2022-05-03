@@ -50,3 +50,15 @@
         }
     }
 }
+@media screen and (max-width:768px) {
+.projects{
+    display: flex;
+    flex-direction: column;
+    .bg-pro {
+        height: 20vh;
+        width: 100%;
+        position: relative;
+        transition: .3s all;
+        cursor: pointer;
+    }}
+}

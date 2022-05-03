@@ -7,8 +7,7 @@
     .links {
         align-self: center;
         a {
-            padding-left: 25px;
-            
+            padding-left: 25px;    
         }
     }
 
@@ -16,5 +15,15 @@
         text-decoration: italic;
         color: grey;
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    footer .links a {
+        font-size: 12px;
+    }
+    .quote {
+
+        font-size: 8px;
     }
 }
